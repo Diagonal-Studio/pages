@@ -1,0 +1,195 @@
+html {
+    text-align: center;
+    transition: all 0.5s;
+    font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, Arial, sans-serif
+}
+
+html {
+    background-image: linear-gradient(60deg, rgba(171,
+                191,
+                199,
+                0.1) 0%, rgba(111,
+                169,
+                190) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-card {
+    width: 18em;
+    margin: auto auto 10px auto;
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 0.3s;
+}
+
+span {
+    margin: 10px;
+    font-size: larger;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-card:hover {
+    background-color: #ecf5ff;
+}
+
+.redbutton {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 1em;
+    background-color: #BB4444;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.redbutton:hover {
+    box-shadow: rgba(187, 68, 68, 0.4) 5px 5px, rgba(187, 68, 68, 0.3) 10px 10px, rgba(187, 68, 68, 0.2) 15px 15px, rgba(187, 68, 68, 0.1) 20px 20px, rgba(187, 68, 68, 0.05) 25px 25px;
+}
+
+.iimg:hover {
+    box-shadow: rgba(111, 169, 190, 0.4) 5px 5px, rgba(111, 169, 190, 0.3) 10px 10px, rgba(111,
+            169,
+            190, 0.2) 15px 15px, rgba(111,
+            169,
+            190, 0.1) 20px 20px, rgba(111,
+            169,
+            190, 0.05) 25px 25px;
+}
+
+.pp {
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.3s;
+}
+
+.pp:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media (min-width: 768px) {
+    .redbutton:hover {
+        height: 7em
+    }
+
+    .markdown-body {
+        margin: 20px;
+        padding: 50px
+    }
+
+}
+
+@media (max-width: 768px) {
+    .redbutton:hover {
+        height: 10em
+    }
+
+    .markdown-body {
+        margin: 10px;
+        padding: 30px
+    }
+
+}
+
+@media (max-width: 450px) {
+    .iim {
+        visibility: hidden;
+    }
+
+}
+
+@media (min-width: 450px) {
+    .shouji {
+        visibility: hidden;
+    }
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #606266;
+}
+
+.items {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.menu {
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.3s;
+}
+
+.menu:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.span {
+    position: absolute;
+    right: 2px;
+    bottom: 0px;
+}
+
+.main {
+    margin: 10px 1px 10px 1px;
+}
+
+.markdown-body {
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #6e7074;
+}
+
+* {
+    text-decoration: none;
+}
+
+a {
+    text-align: left;
+}
+
+.linkbu {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.el-card1 {
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    transition: all 0.3s;
+}
+
+.el-card1:hover {
+    background-color: #ecf5ff;
+}
+
+.card2 {
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .linkbu {
+        margin: auto 1px auto 1px;
+    }
+}
